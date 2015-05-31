@@ -1,4 +1,5 @@
-angular.module('routerApp', [])
+//inject routerRoutes module to do routing
+angular.module('routerApp', ['routerRoutes'])
 
 	// create the controllers
 	// this will be the controller for the ENTIRE site
